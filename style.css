@@ -1,0 +1,82 @@
+:root {
+    --bgcolor: rgb(255, 255, 255);
+}
+
+body {
+    background-color: var(--bgcolor);
+}
+
+main {
+    margin: 117px;
+}
+
+.section1 {
+    text-align: center;
+    padding-bottom: 15px;
+}
+
+section h1 {
+    font-family: "Ubuntu sans", sans-serif;
+    font-size: 35px;
+    display: inline;
+}
+
+.para {
+    font-family: "open sans", sans-serif;
+    font-weight: bold;
+    font-size: 14px;
+}
+
+.para1 {
+    font-family: "open sans", sans-serif;
+    letter-spacing: 0.2px;
+    font-size: 12px;
+}
+
+.pic {
+    width: 190px;
+    height: 210px;
+    margin: 10px;
+    border-radius: 15px;
+}
+
+.section2 {
+    display: flex;
+    justify-content: center;
+}
+
+#one {
+    background-image: url(image-1.jpeg);
+    background-size: cover;
+    background-position: top;
+    position: relative;
+}
+
+#two {
+    background-image: url(image-2.jpeg);
+    background-size: cover;
+    background-position: top;
+    position: relative;
+}
+
+#three {
+    background-image: url(image-3.jpeg);
+    background-size: cover;
+    background-position: top;
+    position: relative;
+}
+
+#four {
+    background-image: url(image-4.jpeg);
+    background-size: cover;
+    background-position: top;
+    position: relative;
+}
+
+.section2 h4 {
+    color: rgb(255, 255, 255);
+    font-size: 25px;
+    position: absolute;
+    left: 10px;
+    bottom: 10px;
+}
